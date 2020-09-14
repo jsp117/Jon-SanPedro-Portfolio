@@ -1,2 +1,2 @@
-# Jon-SanPedro-s-Portfolio
+# Jon-SanPedro-Portfolio
 Portfolio site for Jonathan SanPedro
