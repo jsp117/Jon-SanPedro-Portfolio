@@ -1,5 +1,5 @@
 header{
-    /* margin-bottom: 60px; */
+    
 }
 
 h1{
@@ -9,16 +9,23 @@ h1{
 }
 
 body{
-    /* possibly fix scale to size */
+    /* background image */
     background-image: url("Assets/Images/backgroundImage.jpg");
-}
-
-.content{
     overflow: hidden;
 }
 
+#spacing{
+    padding: 90px;
+}
+
+h2{
+    color: rgb(63, 151, 173);
+}
+
+
 footer{
     position: fixed;
+    left: 0;
     bottom: 0;
     text-align: center;
     background: rgba(38, 39, 39, 0.603);
