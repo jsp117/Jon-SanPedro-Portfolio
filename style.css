@@ -16,7 +16,8 @@ body{
 }
 
 #spacing{
-    padding: 90px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 h2{
