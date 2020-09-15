@@ -11,7 +11,8 @@ h1{
 body{
     /* background image */
     background-image: url("Assets/Images/backgroundImage.jpg");
-    overflow: hidden;
+    background-size: contain;
+    /* overflow: hidden; */
 }
 
 #spacing{
@@ -28,7 +29,7 @@ footer{
     left: 0;
     bottom: 0;
     text-align: center;
-    background: rgba(38, 39, 39, 0.603);
+    background: rgba(23, 24, 24, 0.897);
     width: 100%;
     color: white;
     border-top: 5px solid rgb(63, 151, 173);
