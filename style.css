@@ -2,6 +2,7 @@ h1{
     padding: 10px;
     color: white;
     background-color: rgb(63, 151, 173);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body{
@@ -18,16 +19,34 @@ body{
 
 h2{
     color: rgb(63, 151, 173);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* old sticky-footer :( */
+/* .container{
+    min-height: 100%;
+    height: auto !important;
+    height:100%;
+} */
+/* .push{
+    height:64px;
+    margin-bottom: auto;
+} */
 
-footer{
-    position: fixed;
-    left: 0;
+/* .footer{ */
+    /* position: absolute; */
+    /* left: 0;
     bottom: 0;
+    height: 142px;
     text-align: center;
     background: rgba(23, 24, 24, 0.897);
     width: 100%;
     color: white;
     border-top: 5px solid rgb(63, 151, 173);
-}
+}  */
+
+
+footer {
+    height: 64px;
+    width: 100%;
+} 
