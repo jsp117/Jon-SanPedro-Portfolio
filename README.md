@@ -30,6 +30,8 @@ Jonathan SanPedro - Bachelors of Information Technology Rutgers New Brunswick - 
 ![Portfolio - Small Screen ](./Assets/Images/PortfolioPage.png)
 
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 MIT License
 
 Copyright (c) [2020] [Jonathan J. SanPedro]
@@ -54,3 +56,5 @@ SOFTWARE.
 
 ## Acknowledgements
 [Bootstrap CSS Framework](https://www.getbootstrap.com)
+[Linkedin Icon from: ](https://www.softicons.com)
+[Github Icon from: ](https://github.com/logos)

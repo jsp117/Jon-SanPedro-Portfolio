@@ -33,22 +33,22 @@
   <!-- Grid Start -->
   <main class="container">
 
-    <!-- <header>
+    <header>
       <nav class="navbar fixed-top navbar-light bg-light">
         <a class="navbar-brand" href="index.html">
           <h1>Jon SanPedro</h1>
         </a>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-          Options collapse depending on screen size
+          <!-- Options collapse depending on screen size -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <nav class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              navigation to different pages 
+              <!-- navigation to different pages  -->
               <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
               </li>
@@ -59,51 +59,10 @@
                 <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
               </li>
             </ul>
-          </div>
+          </nav>
         </nav>
       </nav>
-    </header> -->
-
-
-
-
-    <div class="row">
-      <div class="col-sm">
-        <!-- fixed top nav bar -->
-        <header>
-          <nav class="navbar fixed-top navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
-              <h1>Jon SanPedro</h1>
-            </a>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-              <!-- Options collapse depending on screen size -->
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                  <!-- navigation to different pages -->
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </nav>
-        </header>
-        <!-- nav close -->
-      </div>
-      <!-- row 1 end -->
-    </div>
+    </header>
 
     <!-- spacing row -->
     <div class="row">
@@ -114,16 +73,16 @@
     </div>
 
     <!-- content row start -->
-    <div class="row h-50">
+    <section class="row">
       <!-- column start -->
-      <div class="col-sm-8 col-sm-4 col-sm-2">
+      <article class="col-sm-8 col-sm-6 col-sm-4 col-sm-2">
         <!-- card start -->
         <div class="card bg-light mb-3">
-          <div class="card-header">
+          <header class="card-header">
             <h2>About Me</h2>
-          </div>
+          </header>
           <div class="card-body">
-            <p class="card-text"><img style="width: 150px; height: 150px; margin-right: 20px;"
+            <p class="card-text"><img class="img-fluid" style="max-width: 150px; max-height: 150px; margin-right: 20px;"
                 src="Assets/Images/profile.jfif" alt="Jon SanPedro Picture" Align="left"> Hello! I'm Jonathan SanPedro
               and I am a student at the Berkeley Coding Academy. I graduated from Rutgers University in 2014 with a
               bachelors in Information Technology and Informatics. Since then, I've been working as an IT technician in
@@ -144,12 +103,13 @@
           </div>
         </div>
         <!-- column end -->
-      </div>
+      </article>
       <!-- content row end -->
-    </div>
+    </section>
+  </main>
 
-    <!-- footer trial 1 -->
-    <!-- <div class="row">
+  <!-- true sticky footer attempts - partially working -->
+  <!-- <div class="row">
             <div class ="col-sm">
             
             <footer class="footer mt-auto py-3">
@@ -159,9 +119,8 @@
             </footer>
         </div>
         </div> -->
-    <!-- main end -->
-    <!-- <div class="push"></div>    -->
-  </main>
+  <!-- main end -->
+  <!-- <div class="push"></div>    -->
 
   <!-- sticky footer -->
   <!-- <footer class="footer mt-auto py-3">
@@ -170,7 +129,7 @@
     </div>
   </footer> -->
 
-  <footer class="footer py-3 bg-dark text-white-50 fixed-bottom w-100">
+  <footer class="footer py-3 bg-dark text-white-50 fixed-bottom w-100 border-top border-info">
     <div class="container text-center">
       <small>Copyright &copy; Jon SanPedro</small>
     </div>

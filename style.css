@@ -22,12 +22,8 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* #git{
-    margin: auto;
-    display: block;
-} */
 
-/* old sticky-footer :( */
+/* old sticky-footer styling from multiple attempts:( */
 /* .container{
     min-height: 100%;
     height: auto !important;
@@ -52,7 +48,6 @@ h2{
 
 
 footer {
-    border-top: 5px solid rgb(63, 151, 173);
     height: 64px;
     width: 100%;
 } 
