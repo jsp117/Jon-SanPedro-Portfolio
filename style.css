@@ -8,7 +8,7 @@ h1{
 body{
     /* background image */
     background-image: url("Assets/Images/backgroundImage.jpg");
-    background-size: contain;
+    background-size: cover;
     /* overflow: hidden; */
 }
 
@@ -22,6 +22,10 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+footer {
+    height: 64px;
+    width: 100%;
+} 
 
 /* old sticky-footer styling from multiple attempts:( */
 /* .container{
@@ -45,9 +49,3 @@ h2{
     color: white;
     border-top: 5px solid rgb(63, 151, 173);
 }  */
-
-
-footer {
-    height: 64px;
-    width: 100%;
-} 
