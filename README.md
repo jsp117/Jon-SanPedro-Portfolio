@@ -25,9 +25,9 @@ Jonathan SanPedro - Bachelors of Information Technology Rutgers New Brunswick - 
 * [LinkedIn](https://www.linkedin.com/in/jonathan-s-6ab32283/)
 
 ## Images
-![About Me - Large Screen](./Assets/Images/AboutMe1.png)
-![Contact - Medium Screen](./Assets/Images/Contact.png)
-![Portfolio - Small Screen ](./Assets/Images/PortfolioPage.png)
+* ![About Me - Large Screen](./Assets/Images/AboutMe1.png)
+* ![Contact - Medium Screen](./Assets/Images/Contact.png)
+* ![Portfolio - Small Screen ](./Assets/Images/PortfolioPage.png)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -55,6 +55,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Acknowledgements
-[Bootstrap CSS Framework](https://www.getbootstrap.com)
-[Linkedin Icon from: ](https://www.softicons.com)
-[Github Icon from: ](https://github.com/logos)
+* [Bootstrap CSS Framework](https://www.getbootstrap.com)
+* LinkedIn Icon From: (https://www.softicons.com)
+* Github Icon From: (https://github.com/logos)
+* Background Image by Greg Rakozy: (https://unsplash.com/@grakozy)

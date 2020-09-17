@@ -6,7 +6,7 @@ h1{
 }
 
 body{
-    /* background image */
+    /* background image by Greg Rakozy */
     background-image: url("Assets/Images/backgroundImage.jpg");
     background-size: cover;
     /* overflow: hidden; */
@@ -22,7 +22,20 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-footer {
+.social{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+/* > a means all anchor (a) tags following social class */
+/* tutor: parent needs to be position relative, child needs to be position absolute transform: translate changes origin of the element to middle rather than top left */
+.social > a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer{
     height: 64px;
     width: 100%;
 } 
