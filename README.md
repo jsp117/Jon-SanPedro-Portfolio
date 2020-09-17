@@ -1,13 +1,13 @@
 # Jon-SanPedro-Portfolio
 
 ## Description
-For this project, the goal was to utilize the Bootstrap CSS Framework to create a portfolio website that included a navbar, a responsive layout, and responsive images. I began by taking the starter template from bootstrap, then adding a nav bar, footer and grid layout system to the page. Using that layout, I was then able to implement a card to host all content on the site. Copying this layout for each page, I then added content to the card for all pages. After the initial design was finished, I began to replace non-semantic div tags with semantic, concise tags for clarity while also commenting out all changes made. Due to the use of the bootstrap framework, very little styling was needed in the attached CSS sheet. 
+For this project, the goal was to use the Bootstrap CSS Framework to create a portfolio website that included a navbar, a responsive layout, and responsive images. I began by taking the starter template from bootstrap, then adding a nav bar, footer, grid layout system, and a card to host all content across the website.  Utilizing this layout for each page, I then added content to the card for all pages. After the initial design was finished, I began to replace non-semantic div tags with semantic, concise tags for clarity while also commenting out all changes made. Due to the use of the bootstrap framework, very little styling was needed in the attached CSS sheet. All images on the site have alt tags added for accessibility. Included in the finished product is an about me page with personal information and picture, a contact page with a form for input, and a portfolio page with images and links to all my past and future projects and social media. 
 
 ## Installation
 To launch this site, I created a repository on github and utilized github pages to host it.
 
 ## Usage
-This is a portfolio website to myself and show off my skills. It includes an About me page, contact form, and images with links to my past and futre projects. 
+This is a portfolio website to myself and show off my skills. It includes an About me page, contact form, and a portfolio page. 
 
 ## Built With
 * HTML
