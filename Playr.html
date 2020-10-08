@@ -13,10 +13,11 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Home - Jon SanPedro Portfolio</title>
+  <title>Projects</title>
 </head>
 
 <body>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -29,9 +30,11 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
 
+
+
   <!-- Grid Start -->
   <main class="container">
-    <!-- Nav start -->
+    <!-- nav start -->
     <header>
       <nav class="navbar fixed-top navbar-light bg-light">
         <a class="navbar-brand" href="index.html">
@@ -47,103 +50,82 @@
 
           <nav class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <!-- navigation to different pages  -->
+              <!-- navigation to different pages -->
               <li class="nav-item">
-                <a class="nav-link" href="Playr.html">Projects</a>
+                <a class="nav-link" href="Playr.html">Projects<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
               </li>
             </ul>
           </nav>
         </nav>
       </nav>
     </header>
+    <!-- nav close -->
 
-
-    <section id="spacing"></section>
+    <!-- spacing -->
+    <section id="spacing" style="padding: 90px"></section>
 
 
     <!-- content row start -->
     <section class="row">
       <!-- content column - col-lg-8 - 8 columns wide on large and above screens, 12 on smaller -->
       <section class="col-lg-8">
-        <!-- card start -->
-        <section class="card bg-light mb-3">
+
+        <!-- card to host portfolio pictures -->
+        <section class="card border-light mb-5">
           <header class="card-header">
-            <h2>About Me</h2>
+            <h2>Projects</h2>
           </header>
-          <article class="card-body">
-            <p class="card-text text-wrap"><img class="img-fluid d-block float-left"
-                style="width: 150px; height: 150px; margin-right: 20px;" src="Assets/Images/profile.jfif"
-                alt="Jon SanPedro Picture"> Hello! I'm Jonathan SanPedro
-              and I am a student at the Berkeley Coding Academy. I graduated from Rutgers University in 2014 with a
-              bachelors in Information Technology and Informatics. Since then, I've been working as an IT technician in
-              multiple states. Right around when Covid started, I began teaching myself little bits of JavaScript and
-              wanted to grow my skills further. I hope to gain the skills to become a developer and choose whatever
-              career path I want! </p>
-            <p class="card-text">Skills: </p>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-            </ul>
-            <p class="card-text">Links: </p>
-            <ul>
-              <li><a href="https://www.linkedin.com/in/jonathan-s-6ab32283/" target="_blank">LinkedIn</a></li>
-              <li><a href="https://github.com/jsp117" target="_blank">Github</a></li>
-            </ul>
-            <p class="card-text">Contact Information: </p>
-            <ul>
-              <li>Phone: (609)468-2447</li>
-              <li><a href="#" name="email" id="email">Email: jonsp14@gmail.com</a></li>
-              <li><a href="https://drive.google.com/file/d/1MxHYvrq6Q0I-rzuWB8Us5ENhi_d-MDNy/view?usp=sharing" target="_blank">Resume</a></li>
-            </ul>
-            
-          </article>
+          <section class="card-body">
+
+            <!-- sub rows/columns for pictures -->
+            <!-- Justify center -->
+            <!-- <div class="row justify-content-center"> -->
+            <section class="row">
+                <p class="card-text text-wrap"> Project title: Playr </p><br>
+                  <p class = "card-text text-wrap">Deployed Link: <a href = "https://jsp117.github.io/Playr/" target="_blank">Playr</a></p><br>
+                  <p>Github Repository: <a href = "https://github.com/jsp117/Playr" target="_blank">Github Repository</a></p><br>
+                   <img src="Assets/Images/playr.png" class="img-fluid" alt="Playr">
+                  
+                  
+                  
+                  
+                  
+                 
+              
+
+            <!-- sub row close -->
+          </section>
+
         </section>
-        <!-- column end -->
+        <!-- card close -->
+
+        <!-- content column end -->
       </section>
       <!-- content row end -->
     </section>
+
+    
+
+    <!-- Spacing for portfolio card -->
     <section class="p-5"></section>
   </main>
-
-  <!-- true sticky footer attempts - partially working -->
-  <!-- <div class="row">
-            <div class ="col-sm">
-            
-            <footer class="footer mt-auto py-3">
-                <div class="container">
-                  <span class="text-muted">&#169; Copyright Jon SanPedro</span>
-                </div>
-            </footer>
-        </div>
-        </div> -->
-  <!-- main end -->
-  <!-- <div class="push"></div>    -->
-
-  <!-- sticky footer -->
-  <!-- <footer class="footer mt-auto py-3">
-    <div class="container">
-      <span class="text-muted">&#169; Copyright Jon SanPedro</span>
-    </div>
-  </footer> -->
 
   <footer class="footer py-3 bg-dark text-white-50 fixed-bottom w-100 border-top border-info">
     <section class="container text-center">
       <small>Copyright &copy; Jon SanPedro</small>
     </section>
   </footer>
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+
+
 </body>
 
 </html>
