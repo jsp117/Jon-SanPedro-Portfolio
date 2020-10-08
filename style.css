@@ -1,7 +1,7 @@
 h1{
     padding: 10px;
     color: white;
-    background-color: black;
+    background-color: #343a40;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -29,7 +29,7 @@ h2{
     height: 350px;
 }
 
-.social > a{
+.center-image{
     position: absolute;
     top: 50%;
     left: 50%;
